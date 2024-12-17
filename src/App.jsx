@@ -7,7 +7,8 @@ const App = () => {
   const [articles, setArticles] = useState([]); 
   const [loading, setLoading] = useState(false); 
   const [error, setError] = useState(""); 
-
+  
+const apiKey = process.env.REACT_APP_API_KEY;
   const API_KEY = "7689c1342169450bb5bd111f1d2fd245"; 
   const API_URL = "https://newsapi.org/v2/everything";
 
