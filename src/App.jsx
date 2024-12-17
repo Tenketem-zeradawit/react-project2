@@ -25,7 +25,7 @@ const App = () => {
         params: {
           q: query, 
           apiKey: API_KEY,
-          pageSize: 8,
+          pageSize: 6,
         },
       });
 
